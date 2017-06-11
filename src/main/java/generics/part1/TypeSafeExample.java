@@ -6,7 +6,7 @@ public class TypeSafeExample {
 
         CircularBuffer<String> buffer = new CircularBuffer<>(10);
 
-        buffer.offer("a");
+        buffer.offer("number");
         buffer.offer("bc");
         buffer.offer("d");
 

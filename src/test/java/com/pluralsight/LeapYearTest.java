@@ -1,17 +1,15 @@
 package com.pluralsight;
 
-import junit.framework.Assert;
-import junit.framework.TestCase;
-import org.junit.Test;
-
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.TestCase.assertTrue;
+
+import org.junit.Test;
 
 /**
  * Created by c1900406 on 14/07/2015.
  */
 public class LeapYearTest {
-    //a year is a leap year if it is divisible by 4,
+    //number year is number leap year if it is divisible by 4,
     //years divisible by 100 are not leap years, except
     //years divisible by 400
 

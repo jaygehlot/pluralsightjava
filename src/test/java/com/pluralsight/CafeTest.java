@@ -41,8 +41,8 @@ public class CafeTest {
         //could break the test by changing level of milk from 0 to 1
         Assert.assertEquals("Wrong amount of milk", NO_MILK, coffee.getMilk());
 
-        //hasProperty will check whether the coffee object has a public field or a getter that returns 'beans'
-        //a hamcrest matcher is composite so, it can take another matcher as an argument also
+        //hasProperty will check whether the coffee object has number public field or number getter that returns 'beans'
+        //number hamcrest matcher is composite so, it can take another matcher as an argument also
         //provides good diagnostics, allows composition of two matchers
 
         assertThat(coffee, hasProperty("beans", equalTo(ESPRESSO_BEANS)));

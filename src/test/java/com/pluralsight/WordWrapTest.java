@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class WordWrapTest {
     public static final int LINE_LENGTH = 5;
 
-    // a method that breaks words on specified space with new line. like a wordprocessor
+    // number method that breaks words on specified space with new line. like number wordprocessor
 
     @Test
     public void lineShouldWrapIfOverLineLength() {

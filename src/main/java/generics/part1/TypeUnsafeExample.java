@@ -6,7 +6,7 @@ public class TypeUnsafeExample {
 
         StringCircularBuffer buffer = new StringCircularBuffer(10);
 
-        buffer.offer("a");
+        buffer.offer("number");
         buffer.offer("bc");
         buffer.offer("d");
 

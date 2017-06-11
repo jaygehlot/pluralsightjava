@@ -30,7 +30,6 @@ public class ListExamples {
             System.out.println(p);
         }
 
-
         System.out.println("Using Iterator");
         final Iterator<Person> iterator = people.iterator();
 
@@ -38,7 +37,6 @@ public class ListExamples {
             Person p = iterator.next();
             System.out.println(p);
         }
-
 
     }
 }
