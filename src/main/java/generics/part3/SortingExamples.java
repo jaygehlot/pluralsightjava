@@ -2,7 +2,10 @@ package generics.part3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 import java.util.List;
+
+import static java.util.Comparator.comparingInt;
 
 public class SortingExamples {
 
@@ -18,7 +21,7 @@ public class SortingExamples {
 
         System.out.println("BEFORE SORTING==========\n" + people);
 
-        Collections.sort(people, new AgeComparator());
+        Collections.sort(people, comparingInt(Person::getAge));
 
         System.out.println("AFTER SORTING - ASC AGE==========\n" +people);
 
